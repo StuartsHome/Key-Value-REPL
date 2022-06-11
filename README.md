@@ -1,3 +1,8 @@
+# key-value-REPL
+key-value-REPL is a Go implementation of a key-value store with transactions
+using a REPL (read-eval-print loop).
+
+
 ## How to run
 ```
 go run main.go
@@ -9,7 +14,7 @@ the name `web-app`, e.g.
 go run main.go --name="web-app"
 ```
 
-## Flow
+## Example flow
 ```
 web-app> Welcome to web-app!
 web-app> Type HELP for a list of commands.
