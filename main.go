@@ -16,7 +16,7 @@ import (
 
 func main() {
 	var name string
-	flag.StringVar(&name, "name", "web-app", "The name of the app, if no name is provided it defaults to backend-go")
+	flag.StringVar(&name, "name", "web-app", "The name of the app, if no name is provided it defaults to web-app")
 	flag.Parse()
 
 	// Create datastore.
