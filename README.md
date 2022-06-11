@@ -9,11 +9,9 @@ the name `web-app`, e.g.
 go run main.go --name="web-app"
 ```
 
-
-
 ## Flow
 ```
-backend-go> Welcome to web-app!
+web-app> Welcome to web-app!
 web-app> Type HELP for a list of commands.
 web-app> START   
 web-app> WRITE 3 3
