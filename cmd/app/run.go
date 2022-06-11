@@ -135,33 +135,3 @@ func (c *ClientOpts) printLineStarter(out io.Writer) {
 	message := fmt.Sprintf("%s> ", c.AppName)
 	out.Write([]byte(message))
 }
-
-// func (c *ClientOpts) help() {
-// 	fmt.Printf("%s> Welcome to %s!\n", c.AppName, c.AppName)
-// 	fmt.Printf("%s> Available commands:\n", c.AppName)
-// 	fmt.Printf("%s> HELP	- Displays Help\n", c.AppName)
-// 	fmt.Printf("%s> READ	- Reads value associated with key\n", c.AppName)
-// 	fmt.Printf("%s> WRITE	- Stores key with value\n", c.AppName)
-// 	fmt.Printf("%s> DELETE	- Deletes key and value associated with key\n", c.AppName)
-// 	fmt.Printf("%s> START	- Starts a transaction\n", c.AppName)
-// 	fmt.Printf("%s> COMMIT	- Commits a transaction\n", c.AppName)
-// 	fmt.Printf("%s> ABORT	- Removes current transaction and all associated data\n", c.AppName)
-// 	fmt.Printf("%s> READALL	- Displays all keys and associated values in current transaction\n", c.AppName)
-// 	fmt.Printf("%s> QUIT	- Exits %s\n", c.AppName, c.AppName)
-// 	// c.printLineStarter()
-// }
-
-// // isQuit checks for quit.
-// func isQuit(text string) bool {
-// 	if strings.EqualFold("QUIT", text) {
-// 		return false
-// 	}
-// 	return true
-// }
-
-// // TODO: is this needed?
-// func recoverExp(text string) {
-// 	if r := recover(); r != nil {
-// 		fmt.Println("go-repl> unknown command ", text)
-// 	}
-// }
